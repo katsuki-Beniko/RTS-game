@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "780317921203",
+    "project_id": "trpg-18d75",
+    "storage_bucket": "trpg-18d75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780317921203:ios:f55fc6ee68daa2f9aa45c6",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.RTS-game"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNuc3GDRq1nVD0TspskCzwz4_HfRl5ZzE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

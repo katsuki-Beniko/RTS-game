@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-11_8_1.bundle filter=lfs diff=lfs merge=lfs -text
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-11_8_1.so filter=lfs diff=lfs merge=lfs -text
+Assets/Fantasy[[:space:]]UI[[:space:]]FREE[[:space:]]ver/FREE[[:space:]]ver/Game[[:space:]]menus[[:space:]]copy.eps filter=lfs diff=lfs merge=lfs -text
+Assets/Fantasy[[:space:]]UI[[:space:]]FREE[[:space:]]ver/FREE[[:space:]]ver/Icons/Gold[[:space:]]icons[[:space:]]set[[:space:]]1[[:space:]]copy.eps filter=lfs diff=lfs merge=lfs -text
