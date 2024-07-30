@@ -24,9 +24,8 @@ public class ConfigData
     //读取
     public void Load(string txt)
     {
-        string[] dataArr = txt.Split("\n");//换行
-        string[] titleArr = dataArr[0].Trim().Split(',');//逗号切割，获得第一行数据，作为每行数据中的字典的key
-        //内容从第三行开始读取（下标从2开始）
+        string[] dataArr = txt.Split("\n");
+        string[] titleArr = dataArr[0].Trim().Split(',');
         for(int i=2;i<dataArr.Length;i++)
         {
             string[] tempArr = dataArr[i].Trim().Split(',');

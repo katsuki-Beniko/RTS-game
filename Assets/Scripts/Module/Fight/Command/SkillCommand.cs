@@ -1,8 +1,5 @@
 using System.Collections.Generic;
 
-/// <summary>
-/// 技能指令
-/// </summary>
 public class SkillCommand : BaseCommand
 {
     ISkill skill;
@@ -17,8 +14,7 @@ public class SkillCommand : BaseCommand
         List<ModelBase> results = skill.GetTarget();
         if(results.Count >0)
         {
-            //有目标
-            GameApp.SkillManager.AddSkill(skill, results);//将技能添加到技能管理器
+            GameApp.SkillManager.AddSkill(skill, results);
         }
     }
 

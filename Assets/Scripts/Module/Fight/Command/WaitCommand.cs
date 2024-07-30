@@ -1,6 +1,4 @@
-/// <summary>
-/// µИґэЦёБо
-/// </summary>
+
 public class WaitCommand :BaseCommand
 {
     private float time;

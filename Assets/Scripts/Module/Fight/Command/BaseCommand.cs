@@ -3,8 +3,8 @@
 /// </summary>
 public class BaseCommand
 {
-    public ModelBase model;//命令的对象
-    protected bool isFinish;//是否做完标记
+    public ModelBase model;
+    protected bool isFinish;
 
     public BaseCommand()
     {

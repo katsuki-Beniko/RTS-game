@@ -13,8 +13,8 @@ public static class Defines
     public static readonly string OnSelectEvent = "OnSelectEvent";
     public static readonly string OnUnSelectEvent = "OnUnSelectEvent";
 
-    //÷∏¡Ó—°œÓ
     public static readonly string OnAttackEvent = "OnAttackEvent";
+    public static readonly string OnSkillEvent = "OnSkillEvent";
     public static readonly string OnIdleEvent = "OnIdleEvent";
     public static readonly string OnCancelEvent = "OnCancelEvent";
     public static readonly string OnRemoveHeroToSceneEvent = "OnRemoveHeroToSceneEvent";

@@ -27,7 +27,7 @@ public class HeroItem : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
     public void OnEndDrag(PointerEventData eventData)
     {
         GameApp.ViewManager.Close((int)ViewType.DragHeroView);
-        //检测拖拽后的位置是否有block脚本
+
         Tools.ScreenPointToRay2D(eventData.pressEventCamera, eventData.position, delegate (Collider2D col)
         {
             if(col != null)
@@ -35,11 +35,8 @@ public class HeroItem : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
                 Block b = col.GetComponent<Block>();
                 if(b!=null)
                 {
-                    //有方块
                     Debug.Log(b);
-                    //删除
                     Destroy(gameObject);
-                    //创建英雄物体
                     GameApp.FightManager.AddHero(b, data);
                 }
             }

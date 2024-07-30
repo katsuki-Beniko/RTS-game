@@ -27,7 +27,7 @@ public class GameScene : MonoBehaviour
         //◊¢≤·≈‰÷√±Ì
         RegisterConfigs();
 
-        GameApp.ConfigManager.LoadAllConfigs();//º”‘ÿ≈‰÷√±Ì
+        GameApp.ConfigManager.LoadAllConfigs();
 
         //≤‚ ‘≈‰÷√±Ì
         ConfigData tempData = GameApp.ConfigManager.GetConfigData("enemy");

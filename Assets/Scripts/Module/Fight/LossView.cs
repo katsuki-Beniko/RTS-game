@@ -1,17 +1,27 @@
+using UnityEngine;
 using UnityEngine.UI;
 
 public class LossView : BaseView
 {
+    public Tips tips;
+
     protected override void OnStart()
     {
         base.OnStart();
+        if (tips != null)
+        {
+            tips.DisplayRandomTip();
+        }
+        else
+        {
+            Debug.LogError("Tips reference is not set in the inspector.");
+        }
+
         Find<Button>("okBtn").onClick.AddListener(delegate ()
         {
-            //卸载战斗中的资源
             GameApp.FightManager.ReLoadRes();
             GameApp.ViewManager.CloseAll();
 
-            //切换场景
             LoadingModel load = new LoadingModel();
             load.SceneName = "map";
             load.callback = delegate ()
@@ -22,4 +32,5 @@ public class LossView : BaseView
             Controller.ApplyControllerFunc(ControllerType.Loading, Defines.LoadingScene, load);
         });
     }
+
 }

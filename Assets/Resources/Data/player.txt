@@ -1,5 +1,8 @@
 Id,Name,Type,Model,Icon,Hp,Attack,Skill,Step,Event
 Id,名称,类型,模型资源,图标,血量,攻击力,技能,行动力,事件
-10001,Knight,0,Knight,CyanKnight,12,4,10001,8,1001-1002-1005
-10002,Assassin,0,Assassin,Assasin,5,8,10007,6,1001-1002-1005
-10003,SpearMan,0,Spearman,Spearman,14,4,10006,4,1001-1002-1005
+10001,Knight,0,Knight,CyanKnight,12,2,10001,8,1001-1002-1005
+10002,Assassin,0,Assassin,Assasin,5,4,10002,6,1001-1002-1005
+10003,SpearMan,0,Spearman,Spearman,14,2,10003,4,1001-1002-1005
+10004,Mage,0,Mage,Mage,5,3,10005,5,1001-1002-1005
+10005,Sword_man,0,Sword_man,Swordsman,16,3,10007,4,1001-1002-1005
+10006,Hanzo(Commander),0,Hanzo(Commander),Kanji,15,5,10006,8,1001-1002-1005

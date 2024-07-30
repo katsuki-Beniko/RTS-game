@@ -13,7 +13,7 @@ public class StartView : BaseView
     }
 
     //©╙й╪сно╥
-    private void onStartGameBtn()
+    public void onStartGameBtn()
     {
         GameApp.ViewManager.Close(ViewId);
 
